@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    z-index: 1;
+
+}
+
+#main1{
+    /* border: 1px solid #000066; */
+        
+    width: 100%;
+    margin-top: 200px;
+    height: 500px;
+
+
+}
+
+.footer{
+    border: 1px solid #ff1a8c;
+    height: 150px;
+    width: 100%;
+    background: #00cc99;
+}
+
+.clear{
+    clear: both;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+.menu ul li {
+    display: inline-block;
+    border-top: 1.5px solid;
+    border-bottom: 1.5px solid;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding: 0px 44px;
+    display: inline-block;
+    background-color: black;
+}
+
+.menu li:hover a {
+    color: black;
+    background-color: white;
+}
+
+.menu {
+    height: 51.5px;
+    background-color: black;
+}
+
+.main {
+    height: 95px;
+    background-color: white;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.Diachi {
+    margin-left: 800px;
+}
+
+ul.ds_sp{
+    padding: 0;
+    margin: 0;
+    line-height: none;
+    width: 100%;
+}
+
+ul.ds_sp li{
+    width: 17%;
+    border: 1px dashed #000;
+    /* margin: 5px; */
+    float: left;
+    height: 250px;
+    margin: 5px 5px 5px 32px; 
+    list-style: none;
+}
+
+ul.ds_sp li img {
+    width: 100%;
+    height: 150px;
+}
+
+ul.ds_sp li a{
+    text-decoration: none;
+}
+
+p.Ten{
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p.Gia{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p.NSX{
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p.HSD{
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p.footer_copyright{
+    text-align: center;
+    color: #000;
+}
+
+.wrapper_chitiet{
+    height: auto;
+    width: 80%;
+    /* margin: 0 aut; */
+    margin: 0px 100px 10px 10px;
+}
+
+.hinhanh_sanpham{
+
+    float: left;
+    width: 50%;
+}
+
+.chitiet_sanpham{
+    float: right;
+    width: 50%;
+    /* margin-right: 180px; */
+}
